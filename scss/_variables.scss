@@ -1,0 +1,85 @@
+:root {
+
+  // Текст
+  --text-color-primary:   #606060;
+  --text-color-secondary: #808080;
+
+  // Акценты
+  --accent-color-primary:  #ff0000;
+  --accent-color-secondary: #dc3545;
+  --accent-color-third:    #e9f2c3;
+  --accent-color-fourth:   rgb(128, 188, 20);
+
+  // Фон
+  --bg-body:    #ffffff;
+  --bg-surface: #f5f5f5;
+
+  //Типографика
+  --font-family-base: "Open Sans", -apple-system, BlinkMacSystemFont,
+                      "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-md: 18px;
+  --font-size-sm: 14px;
+  --font-size-xs: 10px;
+
+  // Заголовки
+  --h1-size: 54px;
+  --h2-size: 40px;
+  --h3-size: 32px;
+  --h4-size: 24px;
+  --h5-size: 16px;
+  --h6-size: 12px;
+
+  // Отступы
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 40px;
+
+  // Радиус
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+}
+
+// Планшет (≤ 768px)
+@media (max-width: 768px) {
+  :root {
+    --h1-size: 40px;
+    --h2-size: 32px;
+    --h3-size: 24px;
+    --h4-size: 20px;
+    --h5-size: 18px;
+    --h6-size: 14px;
+
+    --spacing-sm: 6px;
+    --spacing-md: 12px;
+    --spacing-lg: 16px;
+    --spacing-xl: 24px;
+
+    --font-size-base: 14px;
+    --font-size-md: 16px;
+    --font-size-sm: 12px;
+  }
+}
+
+// Телефон (≤ 375px)
+@media (max-width: 375px) {
+  :root {
+    --h1-size: 32px;
+    --h2-size: 24px;
+    --h3-size: 20px;
+    --h4-size: 16px;
+    --h5-size: 14px;
+    --h6-size: 12px;
+
+    --spacing-sm: 4px;
+    --spacing-md: 10px;
+    --spacing-lg: 12px;
+    --spacing-xl: 20px;
+
+    --font-size-base: 12px;
+    --font-size-md: 14px;
+    --font-size-sm: 10px;
+  }
+}
